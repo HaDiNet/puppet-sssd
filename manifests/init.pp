@@ -193,7 +193,7 @@ class sssd (
     path    => $config_file,
     owner   => 'root',
     group   => 'root',
-    mode    => '0600',
+    mode    => '0640',
     content => template($config_template),
   }
 
